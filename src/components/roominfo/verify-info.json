@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_roominfo_verify_infos",
+  "info": {
+    "displayName": "verify_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "message": {
+      "type": "json"
+    },
+    "text_color": {
+      "type": "string",
+      "default": "#767676"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_roominfo_reviews",
+  "info": {
+    "displayName": "reviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "comments": {
+      "type": "text"
+    },
+    "createdat": {
+      "type": "date"
+    },
+    "is_translated": {
+      "type": "boolean"
+    },
+    "reviewer_image_url": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "localized_date": {
+      "type": "string",
+      "default": "여기스테이 가입 기간"
+    }
+  }
+}

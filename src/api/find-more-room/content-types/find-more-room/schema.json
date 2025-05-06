@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "find_more_rooms",
+  "info": {
+    "singularName": "find-more-room",
+    "pluralName": "find-more-rooms",
+    "displayName": "FindMoreRoom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "findmoreroomsid": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.list-item"
+    }
+  }
+}

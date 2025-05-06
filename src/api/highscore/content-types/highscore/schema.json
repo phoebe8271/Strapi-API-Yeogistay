@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "highscores",
+  "info": {
+    "singularName": "highscore",
+    "pluralName": "highscores",
+    "displayName": "Highscore",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "highscoreid": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.roominfo"
+    }
+  }
+}

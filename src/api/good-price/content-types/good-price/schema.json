@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "good_prices",
+  "info": {
+    "singularName": "good-price",
+    "pluralName": "good-prices",
+    "displayName": "good-price",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "goodpriceid": {
+      "type": "uid"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.roominfo"
+    },
+    "reviews_score": {
+      "type": "decimal"
+    }
+  }
+}

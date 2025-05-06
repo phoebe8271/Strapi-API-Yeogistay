@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_roominfo_bottom_infos",
+  "info": {
+    "displayName": "bottom_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "게스트선호, 슈퍼호스트"
+    },
+    "content_color": {
+      "type": "string",
+      "default": "#767676"
+    },
+    "font_size": {
+      "type": "string",
+      "default": "10"
+    },
+    "visibility": {
+      "type": "string",
+      "default": "LIST_VIEW"
+    }
+  }
+}

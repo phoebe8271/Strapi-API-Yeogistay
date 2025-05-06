@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dest_list_dest_lists",
+  "info": {
+    "displayName": "dest_list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "placename": {
+      "type": "string"
+    },
+    "homes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::roominfo.roominfo"
+    }
+  }
+}

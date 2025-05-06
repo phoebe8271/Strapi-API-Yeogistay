@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_roominfo_roominfos",
+  "info": {
+    "displayName": "roominfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture_url": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "verify_info": {
+      "displayName": "verify_info",
+      "type": "component",
+      "repeatable": false,
+      "component": "roominfo.verify-info"
+    },
+    "bottom_info": {
+      "displayName": "bottom_info",
+      "type": "component",
+      "repeatable": false,
+      "component": "roominfo.bottom-info"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "price_format": {
+      "type": "string",
+      "default": "₩ "
+    },
+    "star_rating_color": {
+      "type": "string",
+      "default": "#008489"
+    },
+    "reviews_count": {
+      "type": "biginteger"
+    },
+    "lat": {
+      "type": "decimal"
+    },
+    "lng": {
+      "type": "decimal"
+    },
+    "image_url": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "default": "집 전체"
+    },
+    "reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "roominfo.reviews"
+    },
+    "reviews_score": {
+      "type": "decimal"
+    }
+  }
+}

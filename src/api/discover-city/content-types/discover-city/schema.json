@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discover_cities",
+  "info": {
+    "singularName": "discover-city",
+    "pluralName": "discover-cities",
+    "displayName": "DiscoverCity",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "discovercityid": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.list-item"
+    }
+  }
+}

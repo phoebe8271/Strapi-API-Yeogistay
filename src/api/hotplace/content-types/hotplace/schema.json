@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotplaces",
+  "info": {
+    "singularName": "hotplace",
+    "pluralName": "hotplaces",
+    "displayName": "Hotplace",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hotplaceid": {
+      "type": "uid",
+      "default": "63042a81c591817931daf36b"
+    },
+    "type": {
+      "type": "string",
+      "default": "hot_recommend_dest"
+    },
+    "title": {
+      "type": "string",
+      "default": "가장 핫한 이색 숙소에 머물러 보세요"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "고성과 빌라, 선상 숙소와 이글루까지 다채로운 숙소가 준비되어 있습니다"
+    },
+    "dest_list": {
+      "displayName": "dest_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "dest-list.dest-list"
+    }
+  }
+}

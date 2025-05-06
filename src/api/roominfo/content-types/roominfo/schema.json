@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roominfos",
+  "info": {
+    "singularName": "roominfo",
+    "pluralName": "roominfos",
+    "displayName": "roominfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "picture_url": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "verify_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.verify-info"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "price_format": {
+      "type": "string",
+      "default": "₩"
+    },
+    "reviews_score": {
+      "type": "decimal"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.reviews"
+    },
+    "bottom_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roominfo.bottom-info"
+    },
+    "lat": {
+      "type": "decimal"
+    },
+    "lng": {
+      "type": "decimal"
+    },
+    "image_url": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "reviews_count": {
+      "type": "biginteger"
+    },
+    "roomid": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

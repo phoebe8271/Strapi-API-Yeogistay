@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_roominfo_list_items",
+  "info": {
+    "displayName": "list_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string",
+      "default": "₩"
+    },
+    "picture_url": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "image_url": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}
